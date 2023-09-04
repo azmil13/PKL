@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-slate-200 flex  ">
-  <aside class="fixed z-50 md:relative ">
+    <div class="bg-slate-200 flex h-screen">
+  <aside class="fixed z-50 md:relative">
     <!-- Sidebar -->
     <input type="checkbox" class="peer hidden" id="sidebar-open" />
     <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
@@ -110,152 +110,138 @@
     <!-- /Navbar -->
 
     <!-- Main -->
-   
-<div class="w-full">
+    
+<div class="">
   
 <div class="mx-auto mt-8 max-w-screen-lg px-2">
   <div class="sm:flex sm:items-center sm:justify-between flex-col sm:flex-row">
     <p class="flex-1 text-base font-bold text-gray-900"><center>𝓓𝓐𝓣𝓐 𝓐𝓡𝓣</center></p>
+
   </div>
 
-  
-<div class="relative overflow-x-auto mt-6">
-    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-                <th scope="col" class="px-6 py-3 " >
-                    <center>Bulan</center>
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Detail
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    <center>Bulan</center>
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Detail
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Januari
-                </th>
-                <td class="px-5 py-4">
-                  <a href="/data1">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Juli
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    February
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Agustus
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Maret
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   September
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    April
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Oktober
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Mei
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   November
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Juni
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Desember
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                
-            </tr>
+  <div class="mt-6 overflow-hidden rounded-xl border shadow">
+    <table class="min-w-full border-separate border-spacing-y-2 border-spacing-x-2 bg-white border-2" >
+      <thead class="hidden border-b lg:table-header-group">
+        <tr class="">
+          <td width="50%" class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Nama Barang</td>
+
+          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Tanggal pengambilan</td>
+
+          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Jumlah</td>
+
+          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Satuan</td>
+
+          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Nama yang meminta</td>
+        </tr>
+      </thead>
+
+      <tbody class="lg:border-gray-300">
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            bolpoin
+           
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
+
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
+            2 pk
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden">Complete</div>
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            20 pcs
+          </td>
+
+          <td>nnnnn</td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            buku
             
-        </tbody>
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
+
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
+            $59.00
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-red-200 py-1 px-2 text-left font-medium text-red-500 lg:hidden">Canceled</div>
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            ppppp
+          </td>
+
+          <td>nnnnn</td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            tanaman
+           
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
+
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
+            $29.00
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden">Complete</div>
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            pppp
+          </td>
+
+          <td>nnnnn</td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Basic Plan - Nov 2021
+          
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
+
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
+            $29.00
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-200 py-1 px-2 text-left font-medium text-blue-500 lg:hidden">Pending</div>
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            ppp
+          </td>
+
+          <td>nnnnn</td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Basic Plan - Oct 2021
+          
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
+
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
+            $29.00
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden">Complete</div>
+          </td>
+
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            ppp
+          </td>
+          
+          <td>nnnnn</td>
+        </tr>
+      </tbody>
     </table>
+  </div>
 </div>
 
 </div>
 
-</div>
     <!-- /Main -->
   </div>
 </div>

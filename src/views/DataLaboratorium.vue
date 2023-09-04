@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-slate-200 flex  ">
-  <aside class="fixed z-50 md:relative ">
+    <div class="bg-slate-200 flex h-screen">
+  <aside class="fixed z-50 md:relative">
     <!-- Sidebar -->
     <input type="checkbox" class="peer hidden" id="sidebar-open" />
     <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
@@ -115,144 +115,245 @@
   
 <div class="mx-auto mt-8 max-w-screen-lg px-2">
   <div class="sm:flex sm:items-center sm:justify-between flex-col sm:flex-row">
-    <p class="flex-1 text-base font-bold text-gray-900"><center>𝓓𝓐𝓣𝓐 𝓐𝓡𝓣</center></p>
+    <p class="flex-1 text-base font-bold text-gray-900">𝓓𝓐𝓣𝓐 𝓛𝓐𝓑𝓞𝓡𝓐𝓣𝓞𝓡𝓘𝓤𝓜</p>
   </div>
 
-  
-<div class="relative overflow-x-auto mt-6">
-    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-                <th scope="col" class="px-6 py-3 " >
-                    <center>Bulan</center>
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Detail
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    <center>Bulan</center>
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Detail
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Januari
-                </th>
-                <td class="px-5 py-4">
-                  <a href="/data1">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Juli
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    February
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Agustus
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Maret
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   September
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    April
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Oktober
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Mei
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   November
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-            </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                   Juni
-                </th>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Desember
-                </td>
-                <td class="px-5 py-4">
-                  <a href="#">
-                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
-                  </a>
-                </td>
-                
-            </tr>
-            
-        </tbody>
-    </table>
-</div>
+  <div class="mt-6 overflow-hidden rounded-xl border shadow">
+    <table class="min-w-full border-separate border-spacing-y-2 border-spacing-x-2 bg-white">
+      <thead class="hidden border-b lg:table-header-group">
+        <tr class="">
+          <td width="50%" class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Bulan</td>
 
+          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6"></td>
+
+          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6"></td>
+
+          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Detail</td>
+        </tr>
+      </thead>
+
+      <tbody class="lg:border-gray-300">
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+           January
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="/data1">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <!--February-->
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+           February
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Maret
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            April 
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Mei
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Juni
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Juli
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Agustus
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Septemper
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Oktober
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            November
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+        <tr class="">
+          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
+            Desember
+            <div class="mt-1 lg:hidden">
+              <p class="font-normal text-gray-500"></p>
+            </div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell"></td>
+          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">         
+            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden"></div>
+          </td>
+          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
+            <a href="#">
+            <div class="inline-flex items-center rounded-full bg-blue-600 py-2 px-3 text-xs text-white" type="button">Detail</div>
+          </a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
 </div>
 
 </div>
