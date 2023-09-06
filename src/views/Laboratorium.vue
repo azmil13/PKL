@@ -1,35 +1,46 @@
 <template>
-    <div class="bg-slate-200 flex h-screen">
-  <aside class="fixed z-50 md:relative">
-    <!-- Sidebar -->
-    <input type="checkbox" class="peer hidden" id="sidebar-open" />
+  <div class="bg-slate-200 flex h-screen">
+<aside class="fixed z-50 md:relative">
+  <!-- Sidebar -->
+  <input type="checkbox" class="peer hidden" id="sidebar-open" />
     <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </label>
     <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-gray-700 text-white transition-all md:h-screen md:w-64 lg:w-72">
-        <div class="bg-gray-800 mt-5 py-4 pl-10 md:mt-10">
-        <span class="">
-          <span class="text-xl"><img src="../assets/img/stfi.png" alt="" width="70" ></span>
+      <div class="bg-gray-700 mt-3 py-4 md:mt-10">
+        <span class="text-center py-2  ">
+          <center>
+          <span class="text-xl " ><img src="../assets/img/logo.png" alt="" width="140" ></span>
+        </center>
         </span>
+        <center>
+        <span class="text-center py-2  ">Sekolah Tinggi Farmasi Indonesia</span>
+        </center>
       </div>
       <ul class="mt-8 space-y-3 md:mt-20">
         <li class="relative">
          
           <router-link to="/" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
             <span
-              ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg></span
+              ><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 21">
+    <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <path d="M8 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+      <path d="M13.8 12.938h-.01a7 7 0 1 0-11.465.144h-.016l.141.17c.1.128.2.252.3.372L8 20l5.13-6.248c.193-.209.373-.429.54-.66l.13-.154Z"/>
+    </g>
+  </svg></span
             ><span class="">Lokasi</span>
           </router-link >
-   
+        
         </li>
         <li class="relative">
-            <router-link to="/art" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
+          <router-link to="/art" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
             <span
-              ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg></span
+              ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-buildings" viewBox="0 0 16 16">
+            <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z"/>
+            <path d="M2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-2 2h1v1H2v-1Zm2 0h1v1H4v-1Zm4-4h1v1H8V9Zm2 0h1v1h-1V9Zm-2 2h1v1H8v-1Zm2 0h1v1h-1v-1Zm2-2h1v1h-1V9Zm0 2h1v1h-1v-1ZM8 7h1v1H8V7Zm2 0h1v1h-1V7Zm2 0h1v1h-1V7ZM8 5h1v1H8V5Zm2 0h1v1h-1V5Zm2 0h1v1h-1V5Zm0-2h1v1h-1V3Z"/>
+            </svg></span
             ><span class="">ART</span>
           </router-link >
           <svg class="text-slate-200 absolute -right-1 -top-1/2 z-10 hidden h-32 w-8 md:block" xmlns="http://www.w3.org/2000/svg" viewBox="399.349 57.696 100.163 402.081" width="1em" height="4em">
@@ -37,24 +48,21 @@
           </svg>
         </li> 
         <li class="relative">
-            <router-link to="/atk" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
+          <router-link to="/atk" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
             <span
               ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg></span
+                <path stroke-linecap="round" stroke-linejoin="round" d="m13.835 7.578-.005.007-7.137 7.137 2.139 2.138 7.143-7.142-2.14-2.14Zm-10.696 3.59 2.139 2.14 7.138-7.137.007-.005-2.141-2.141-7.143 7.143Zm1.433 4.261L2 12.852.051 18.684a1 1 0 0 0 1.265 1.264L7.147 18l-2.575-2.571Zm14.249-14.25a4.03 4.03 0 0 0-5.693 0L11.7 2.611 17.389 8.3l1.432-1.432a4.029 4.029 0 0 0 0-5.689Z" /></svg></span
             ><span class="">ATK</span>
           </router-link >
         </li>
         <li class="relative">
-          <button class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
-            <span class="text-2xl"
-              ><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
-                <path fill="currentColor" d="M32 15h-1V9a1 1 0 0 0-1-1H6a1 1 0 0 1-1-.82v-.36A1 1 0 0 1 6 6h23.58a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3a3.08 3.08 0 0 0 0 .36v20.57A4.1 4.1 0 0 0 7.13 32H30a1 1 0 0 0 1-1v-6h1a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1Zm-3 15H7.13A2.11 2.11 0 0 1 5 27.93V9.88A3.11 3.11 0 0 0 6 10h23v5h-7a5 5 0 0 0 0 10h7Zm2-7h-9a3 3 0 0 1 0-6h9Z" class="clr-i-outline clr-i-outline-path-1" />
-                <circle cx="23.01" cy="20" r="1.5" fill="currentColor" class="clr-i-outline clr-i-outline-path-2" />
-                <path fill="none" d="M0 0h36v36H0z" /></svg></span
+          <router-link to="/labo" class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
+            <span
+              ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.013 4.175 5.006 7.369l5.007 3.194-5.007 3.193L0 10.545l5.006-3.193L0 4.175 5.006.981l5.007 3.194ZM4.981 15.806l5.006-3.193 5.006 3.193L9.987 19l-5.006-3.194Z" /></svg></span
             ><span class="">Labolatorium</span>
-          </button>
+          </router-link >
         </li>
-       
       </ul>
 
       <div class="my-6 mt-auto ml-10 flex cursor-pointer">
@@ -69,181 +77,194 @@
   </aside>
   <!-- /Sidebar -->
 
-  <div class="flex h-full w-full flex-col">
-    <!-- Navbar -->
-    <header class="relative flex flex-col items-center bg-white px-4 py-4 shadow sm:flex-row md:h-20">
-      <div class="flex w-full flex-col justify-between overflow-hidden transition-all sm:max-h-full sm:flex-row sm:items-center">
-        <div class="relative ml-10 flex items-center justify-between rounded-md sm:ml-auto">
-          <svg class="absolute left-2 block h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="11" cy="11" r="8" class=""></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65" class=""></line>
-          </svg>
-          <input type="name" name="search" class="h-12 w-full rounded-md border border-gray-100 bg-gray-100 py-4 pr-4 pl-12 shadow-sm outline-none focus:border-blue-500" placeholder="Search for anything" />
-        </div>
-
-        <ul class="mx-auto mt-4 flex space-x-6 sm:mx-5 sm:mt-0">
-          <li class="">
-            <button class="flex h-8 w-8 items-center justify-center rounded-xl border text-gray-600 hover:text-black hover:shadow">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </button>
-          </li>
-          <li class="">
-            <button class="flex h-8 w-8 items-center justify-center rounded-xl border text-gray-600 hover:text-black hover:shadow">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-              </svg>
-            </button>
-          </li>
-          <li class="">
-            <button class="flex h-8 w-8 items-center justify-center rounded-xl border text-gray-600 hover:text-black hover:shadow">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </button>
-          </li>
-        </ul>
+<div class="flex h-full w-full flex-col">
+  <!-- Navbar -->
+  <header class="relative flex flex-col items-center bg-white px-4 py-4 shadow sm:flex-row md:h-20">
+    <div class="flex w-full flex-col justify-between overflow-hidden transition-all sm:max-h-full sm:flex-row sm:items-center">
+      <div class="relative ml-10 flex items-center justify-between rounded-md sm:ml-auto">
+        <svg class="absolute left-2 block h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" class=""></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65" class=""></line>
+        </svg>
+        <input type="name" name="search" class="h-12 w-full rounded-md border border-gray-100 bg-gray-100 py-4 pr-4 pl-12 shadow-sm outline-none focus:border-blue-500" placeholder="Search for anything" />
       </div>
-    </header>
-    <!-- /Navbar -->
 
-    <!-- Main -->
-    
-<div class="">
-  
+      <ul class="mx-auto mt-4 flex space-x-6 sm:mx-5 sm:mt-0">
+        <li class="">
+          <button class="flex h-8 w-8 items-center justify-center rounded-xl border text-gray-600 hover:text-black hover:shadow">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </button>
+        </li>
+        <li class="">
+          <button class="flex h-8 w-8 items-center justify-center rounded-xl border text-gray-600 hover:text-black hover:shadow">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+          </button>
+        </li>
+        <li class="">
+          <button class="flex h-8 w-8 items-center justify-center rounded-xl border text-gray-600 hover:text-black hover:shadow">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- /Navbar -->
+
+  <!-- Main -->
+ 
+<div class="w-full">
+
 <div class="mx-auto mt-8 max-w-screen-lg px-2">
-  <div class="sm:flex sm:items-center sm:justify-between flex-col sm:flex-row">
-    <p class="flex-1 text-base font-bold text-gray-900"><center>𝓓𝓐𝓣𝓐 𝓐𝓡𝓣</center></p>
+<div class="sm:flex sm:items-center sm:justify-between flex-col sm:flex-row">
+  <p class="flex-1 text-base font-bold text-gray-900"><center>Data Labolatorium</center></p>
+</div>
 
-  </div>
-
-  <div class="mt-6 overflow-hidden rounded-xl border shadow">
-    <table class="min-w-full border-separate border-spacing-y-2 border-spacing-x-2 bg-white border-2" >
-      <thead class="hidden border-b lg:table-header-group">
-        <tr class="">
-          <td width="50%" class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Nama Barang</td>
-
-          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Tanggal pengambilan</td>
-
-          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Jumlah</td>
-
-          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Satuan</td>
-
-          <td class="whitespace-normal py-4 text-sm font-medium text-gray-500 sm:px-6">Nama yang meminta</td>
-        </tr>
-      </thead>
-
-      <tbody class="lg:border-gray-300">
-        <tr class="">
-          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
-            bolpoin
-           
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
-
-          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-            2 pk
-            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden">Complete</div>
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
-            20 pcs
-          </td>
-
-          <td>nnnnn</td>
-        </tr>
-
-        <tr class="">
-          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
-            buku
+<div class="relative overflow-x-auto mt-6">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3 " >
+                    <center>ＢＵＬＡＮ</center>
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Detail
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    <center>ＢＵＬＡＮ</center>
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Detail
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Januari
+                </th>
+                <td class="px-5 py-4">
+                  <a href="/data1">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                   Juli
+                </td>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    February
+                </th>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Agustus
+                </td>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Maret
+                </th>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                   September
+                </td>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    April
+                </th>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Oktober
+                </td>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                   Mei
+                </th>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    November
+                </td>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-5 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Juni
+                </th>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                <td scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                    Desember
+                </td>
+                <td class="px-5 py-4">
+                  <a href="#">
+                <div class="inline-flex items-center rounded bg-blue-500 py-2 px-3 text-xs text-white" type="button">Detail</div>
+                  </a>
+                </td>
+                
+            </tr>
             
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
-
-          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-            $59.00
-            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-red-200 py-1 px-2 text-left font-medium text-red-500 lg:hidden">Canceled</div>
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
-            ppppp
-          </td>
-
-          <td>nnnnn</td>
-        </tr>
-
-        <tr class="">
-          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
-            tanaman
-           
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
-
-          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-            $29.00
-            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden">Complete</div>
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
-            pppp
-          </td>
-
-          <td>nnnnn</td>
-        </tr>
-
-        <tr class="">
-          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
-            Basic Plan - Nov 2021
-          
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
-
-          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-            $29.00
-            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-200 py-1 px-2 text-left font-medium text-blue-500 lg:hidden">Pending</div>
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
-            ppp
-          </td>
-
-          <td>nnnnn</td>
-        </tr>
-
-        <tr class="">
-          <td width="50%" class="whitespace-no-wrap py-4 text-sm font-bold text-gray-900 sm:px-6">
-            Basic Plan - Oct 2021
-          
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">04-09-2023</td>
-
-          <td class="whitespace-no-wrap py-4 px-6 text-right text-sm text-gray-600 lg:text-left">
-            $29.00
-            <div class="flex mt-1 ml-auto w-fit items-center rounded-full bg-blue-600 py-2 px-3 text-left text-xs font-medium text-white lg:hidden">Complete</div>
-          </td>
-
-          <td class="whitespace-no-wrap hidden py-4 text-sm font-normal text-gray-500 sm:px-6 lg:table-cell">
-            ppp
-          </td>
-          
-          <td>nnnnn</td>
-        </tr>
-      </tbody>
+        </tbody>
     </table>
-  </div>
 </div>
 
 </div>
 
-    <!-- /Main -->
-  </div>
+</div>
+  <!-- /Main -->
+</div>
 </div>
 
 
