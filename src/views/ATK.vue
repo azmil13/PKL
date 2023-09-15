@@ -124,7 +124,7 @@
 
 <div class="mx-auto mt-8 max-w-screen-lg px-2">
 <div class="sm:flex sm:items-center sm:justify-between flex-col sm:flex-row">
-  <p class="flex-1 text-base font-bold text-gray-900"><center>𝓓𝓐𝓣𝓐 𝓐𝓣𝓚</center></p>
+  <p class="flex-1 text-base font-bold text-gray-900"><center>Data ATK</center></p>
 </div>
 
 <div class="relative overflow-x-auto mt-6">
