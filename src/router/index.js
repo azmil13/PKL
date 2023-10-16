@@ -15,6 +15,7 @@ import DataG1L4 from '../views/DataG1L4.vue';
 import Gedung2 from '../views/Gedung2.vue';
 import DataG2L1 from '../views/DataG2L1.vue';
 import DataG2L2 from '../views/DataG2L2.vue';
+import TambahData from '../views/TambahData.vue';
 
 
 const router = createRouter({
@@ -57,7 +58,7 @@ const router = createRouter({
       component : ATK
     },
     {
-      path : '/datag1',
+      path : '/datag1l1',
       name : 'DataG1L1',
       component : DataG1L1
     },
@@ -95,6 +96,11 @@ const router = createRouter({
       path : '/G2L2',
       name : 'DataG2L2',
       component : DataG2L2
+    },
+    {
+      path : '/tambah',
+      name : 'TambahData',
+      component : TambahData
     },
   ]
 })

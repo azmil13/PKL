@@ -79,7 +79,11 @@
     <header class="relative flex flex-col items-center bg-white px-4 py-4 shadow sm:flex-row md:h-20">
       <div class="flex w-full flex-col justify-between overflow-hidden transition-all sm:max-h-full sm:flex-row sm:items-center">
         <div class="relative ml-10 flex items-center justify-between rounded-md sm:ml-auto">
-      
+          <router-link to="/tambah">
+        <div class="relative ml-10 flex items-center justify-between rounded-md sm:ml-auto">
+          <button class="shrink-0 inline-block w-36 rounded-lg bg-gray-400 py-3 font-bold text-white">Tambah Data</button>
+        </div>
+        </router-link>
         </div>
         <ul class="mx-auto mt-4 flex space-x-6 sm:mx-5 sm:mt-0">
           <li class="">

@@ -1,14 +1,14 @@
 <template>
-    <div class="bg-slate-200 flex h-screen">
-  <aside class="fixed z-50 md:relative">
-    <!-- Sidebar -->
+    <div class="bg-slate-200 flex  ">
+       <!-- Sidebar -->
+  <aside class="fixed z-50 md:relative fullscreen-element">
     <input type="checkbox" class="peer hidden" id="sidebar-open" />
     <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </label>
-    <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-gray-700 text-white transition-all md:h-screen md:w-64 lg:w-72">
+    <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-gray-700 text-white transition-all md:h-screen md:w-64 lg:w-72 ">
       <div class="bg-gray-700 mt-3 py-4 md:mt-10">
         <span class="text-center py-2  ">
           <center>
@@ -16,7 +16,7 @@
         </center>
         </span>
         <center>
-        <span class="text-center py-2  ">Sekolah Tinggi Farmasi Indonesia</span>
+        <span class="text-center py-2">Sekolah Tinggi Farmasi Indonesia</span>
         </center>
       </div>
       <ul class="mt-8 space-y-3 md:mt-20">
@@ -82,8 +82,12 @@
     <header class="relative flex flex-col items-center bg-white px-4 py-4 shadow sm:flex-row md:h-20">
       <div class="flex w-full flex-col justify-between overflow-hidden transition-all sm:max-h-full sm:flex-row sm:items-center">
         <div class="relative ml-10 flex items-center justify-between rounded-md sm:ml-auto">
-          <button class="shrink-0 inline-block w-36 rounded-lg bg-gray-400 py-3 font-bold text-white">Tambah Data</button> </div>
-
+          <router-link to="/tambah">
+        <div class="relative ml-10 flex items-center justify-between rounded-md sm:ml-auto">
+          <button class="shrink-0 inline-block w-36 rounded-lg bg-gray-400 py-3 font-bold text-white">Tambah Data</button>
+        </div>
+        </router-link>
+        </div>
         <ul class="mx-auto mt-4 flex space-x-6 sm:mx-5 sm:mt-0">
           <li class="">
             <button class="flex h-8 w-8 items-center justify-center rounded-xl border text-gray-600 hover:text-black hover:shadow">
@@ -115,7 +119,6 @@
     <!-- Main -->
     
 <div class="">
-  
 <div class="mx-auto mt-8 max-w-screen-lg px-2">
   <div class="sm:flex sm:items-center sm:justify-between flex-col sm:flex-row">
     <p class="flex-1 text-base font-bold text-gray-900 xl:text-3xl" ><center>Data Ruangan Front Office</center></p>
@@ -217,6 +220,64 @@
       <td scope="col" class="px-2 py-3 border-2"><center>1.1.03.Tiraubambu001</center></td>
       <td scope="col" class="px-2 py-3 border-2"><center>Baik</center></td>
     </tr>
+
+
+    <tr class="bg-white border-2 dark:bg-gray-800 dark:border-gray-700">
+      <td scope="col" class="px-2 py-3 border-2"><center>5</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Tirai Bambu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Kayu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Front Office</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>4</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>2023</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>1.1.03.Tiraubambu001</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Baik</center></td>
+    </tr>
+    <tr class="bg-white border-2 dark:bg-gray-800 dark:border-gray-700">
+      <td scope="col" class="px-2 py-3 border-2"><center>5</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Tirai Bambu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Kayu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Front Office</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>4</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>2023</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>1.1.03.Tiraubambu001</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Baik</center></td>
+    </tr>
+    <tr class="bg-white border-2 dark:bg-gray-800 dark:border-gray-700">
+      <td scope="col" class="px-2 py-3 border-2"><center>5</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Tirai Bambu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Kayu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Front Office</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>4</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>2023</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>1.1.03.Tiraubambu001</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Baik</center></td>
+    </tr>
+    <tr class="bg-white border-2 dark:bg-gray-800 dark:border-gray-700">
+      <td scope="col" class="px-2 py-3 border-2"><center>5</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Tirai Bambu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Kayu</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Front Office</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>4</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>2023</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>-</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>1.1.03.Tiraubambu001</center></td>
+      <td scope="col" class="px-2 py-3 border-2"><center>Baik</center></td>
+    </tr>
    </table>
   </div>
 </div>
@@ -229,3 +290,7 @@
 
 
 </template>
+
+<script>
+
+</script>
